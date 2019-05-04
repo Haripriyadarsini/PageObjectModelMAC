@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="93.026157">
+<testcase classname="Mac application login funcionality testing" name="Login the Mac page with username and Passw ord with step data" time="35.048387">
+<system-out><![CDATA[Given User should be in Mac login page......................................passed
+When User should click the signin button in the header......................passed
+And User should  enter EmailId 'harnie04@yopmail.com' in the Email Address field.passed
+And User  should enter the password 'Test123' in the password field.........passed
+And User should click the Submit button ito login the MAC application.......passed
+And User should validate the username 'TEST' displayed in the page is valid.passed
+And User mouse hover to username in the header..............................passed
+And User should move to Signout from page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mac application login funcionality testing" name="Login the Mac page with username and Password with step data" time="28.461362">
+<system-out><![CDATA[Given User should be in Mac login page......................................passed
+When User should click the signin button in the header......................passed
+And User should  enter EmailId 'Mac123@yopmail.com' in the Email Address field.passed
+And User  should enter the password 'Test123' in the password field.........passed
+And User should click the Submit button ito login the MAC application.......passed
+And User should validate the username 'MAC1' displayed in the page is valid.passed
+And User mouse hover to username in the header..............................passed
+And User should move to Signout from page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mac application login funcionality testing" name="Login the Mac page with username and Password with step data 2" time="29.516408">
+<system-out><![CDATA[Given User should be in Mac login page......................................passed
+When User should click the signin button in the header......................passed
+And User should  enter EmailId 'Mac1234@yopmail.com' in the Email Address field.passed
+And User  should enter the password 'Test1234' in the password field........passed
+And User should click the Submit button ito login the MAC application.......passed
+And User should validate the username 'MAC2' displayed in the page is valid.passed
+And User mouse hover to username in the header..............................passed
+And User should move to Signout from page...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
